@@ -15,7 +15,7 @@ main proc
     
     cmp bx, cx 
     
-    je last  ; conditoon i < n
+    je last  ; conditon i < n
    
     printn "Here"
     
