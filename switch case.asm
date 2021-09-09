@@ -2,7 +2,6 @@ include 'emu8086.inc'
 
 .model small
 .stack 100H
-
 .data
 
 .code
@@ -55,7 +54,6 @@ main proc
     jmp end_if
     
     
-   
     end_if:
     
     mov ah, 4ch
